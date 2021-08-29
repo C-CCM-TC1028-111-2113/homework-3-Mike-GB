@@ -1,5 +1,4 @@
-
-def main(): volumen(b, h, d):
+def volumen(b, h, d):
     return b*h*d
 
 def main():
@@ -9,5 +8,6 @@ def main():
     d=float(input("Dame la profundidad: "))
     print("El volumen del prisma es:",volumen(b, h, d))
 
+                       
 if __name__=='__main__':
     main()
